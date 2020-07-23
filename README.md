@@ -17,4 +17,8 @@ Otherwise it is all fairly self explanatory and the Menu's guide you through the
 
 #
 
-General Cleanup & refactory, ability to export results to file, correct any typo's
+* General cleanup 
+* Refactoring the conditionals
+* Ability to export results to file
+* Correct any typo's
+* Profit
