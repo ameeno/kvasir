@@ -1,0 +1,25 @@
+### THIS IS A ROUTE.REST API TEST FILE for RESTClient on VSCode.
+
+POST https://demo.kvasira.com/api/library/youtube/query?query_type=url&k=7 HTTP/1.1
+content-type: application/json
+
+{
+    "doc": "https://en.wikipedia.org/wiki/Merge_sort"
+}
+
+###
+
+curl \
+  -X POST \
+  -d '{"doc": "https://en.wikipedia.org/wiki/Merge_sort"}' \
+  -H 'Content-Type: application/json' \
+  'https://demo.kvasira.com/api/library/enwiki/query?query_type=url&k=3'
+
+###
+
+POST https://demo.kvasira.com/api/library/enwiki/query?query_type=url&k=3 HTTP/1.1
+content-type: application/json
+
+{
+    "doc": "https://en.wikipedia.org/wiki/Merge_sort"
+}
