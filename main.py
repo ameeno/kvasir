@@ -1,7 +1,6 @@
-import json
-import sys
+#! /usr/bin/env python3
 
-import requests
+import sys, json, requests
 
 QueryURL = "https://demo.kvasira.com/api/library/"
 LibraryURL = "https://demo.kvasira.com/api/libraries"
